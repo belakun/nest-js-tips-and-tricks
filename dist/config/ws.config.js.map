@@ -1,0 +1,1 @@
+{"version":3,"file":"ws.config.js","sourceRoot":"","sources":["../../src/config/ws.config.ts"],"names":[],"mappings":";;AAIA,MAAM,QAAQ,GAAG,GAAoC,EAAE,CAAC,CAAC;IACvD,EAAE,EAAE;QACF,IAAI,EAAE,QAAQ,CAAC,OAAO,CAAC,GAAG,CAAC,OAAO,EAAE,EAAE,CAAC;KACxC;CACF,CAAC,CAAC;AAEH,kBAAe,QAAQ,CAAC"}

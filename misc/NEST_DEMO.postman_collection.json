@@ -1,0 +1,139 @@
+{
+	"info": {
+		"_postman_id": "7179bb66-c041-4eaa-9d0c-3d201d4e1e79",
+		"name": "NEST_DEMO",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Kenny\",\n    \"supervisorId\": \"7b18d345-8940-46fe-b1bf-5b67189216fd\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{endpoint}}/resources/employee",
+					"host": [
+						"{{endpoint}}"
+					],
+					"path": [
+						"resources",
+						"employee"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Assign Supervisor",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"employeeId\": \"7dcf42d4-19be-442a-9f3e-c15453de832e\",\n    \"supervisorId\": \"7b18d345-8940-46fe-b1bf-5b67189216fd\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{endpoint}}/resources/employee/assign",
+					"host": [
+						"{{endpoint}}"
+					],
+					"path": [
+						"resources",
+						"employee",
+						"assign"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Subordinates",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{endpoint}}/resources/employee/subordinates?id=7b18d345-8940-46fe-b1bf-5b67189216fd",
+					"host": [
+						"{{endpoint}}"
+					],
+					"path": [
+						"resources",
+						"employee",
+						"subordinates"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "7b18d345-8940-46fe-b1bf-5b67189216fd"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Supervisors",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{endpoint}}/resources/employee/supervisors?id=cc331372-7be8-4ec3-90d6-403f4eafd2b5",
+					"host": [
+						"{{endpoint}}"
+					],
+					"path": [
+						"resources",
+						"employee",
+						"supervisors"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "cc331372-7be8-4ec3-90d6-403f4eafd2b5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Promote",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{endpoint}}/resources/employee/promote?id=7b18d345-8940-46fe-b1bf-5b67189216fd",
+					"host": [
+						"{{endpoint}}"
+					],
+					"path": [
+						"resources",
+						"employee",
+						"promote"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "7b18d345-8940-46fe-b1bf-5b67189216fd"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

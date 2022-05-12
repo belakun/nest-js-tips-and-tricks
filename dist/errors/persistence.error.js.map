@@ -1,0 +1,1 @@
+{"version":3,"file":"persistence.error.js","sourceRoot":"","sources":["../../src/errors/persistence.error.ts"],"names":[],"mappings":";;;AAEA,2CAAwC;AAExC,MAAa,iBAAiB;IAM5B,YAAY,MAAe;QAF3B,SAAI,GAAc,qBAAS,CAAC,QAAQ,CAAC;QAGnC,IAAI,CAAC,OAAO,GAAG,2BAA2B,MAAM,CAAC,IAAI,GAAG,CAAC;IAC3D,CAAC;CACF;AATD,8CASC"}
