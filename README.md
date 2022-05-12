@@ -10,3 +10,8 @@ NEST.JS Features implemented in this repository
 - Dynamic controller configuration (/src/generic/crud.controller.ts)
 - Dynamic Repository injection (/src/generic/crud.service.ts)
 - Alternative approach to error handling (/src/errors). Has known issues with http code.
+
+
+# How to start the application
+
+Assuming you have docker installed, simply run `npm run docker:start` then use any of `start` scripts to run application.
